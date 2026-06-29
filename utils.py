@@ -1,0 +1,1 @@
+LOG_FILE = "sample_logs/access.log"
