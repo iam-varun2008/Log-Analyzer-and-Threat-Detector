@@ -4,6 +4,8 @@ A Python-based cybersecurity project that analyzes Apache access logs, detects s
 
 A larger synthetic Apache-style sample log is included in `sample_data/sample_access.log` to demonstrate normal traffic, repeated failed login attempts, admin access attempts, suspicious paths, unusual status codes, and basic injection-like URL patterns.
 
+A sample generated report is included in `reports/report.txt`.
+
 ## Features
 
 * Parses Apache access logs using Regular Expressions (Regex).
