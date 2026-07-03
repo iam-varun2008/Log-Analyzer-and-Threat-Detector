@@ -4,37 +4,61 @@
 
 Summary
 -------
-Total Requests: 10
-Unique IP Addresses: 5
-Successful Requests: 5
-Failed Login Attempts: 3
-404 Errors: 1
+Total Requests: 49
+Unique IP Addresses: 25
+Successful Requests: 19
+Failed Login Attempts: 9
+404 Errors: 10
 Admin Access Attempts: 1
 
 --------------------------------------------------
 
 Request Count
 -------------
-203.0.113.25 -> 2 requests
-198.51.100.42 -> 2 requests
-192.0.2.15 -> 3 requests
-203.0.113.91 -> 2 requests
-198.51.100.88 -> 1 request
+192.0.2.10 -> 1 request
+192.0.2.11 -> 1 request
+192.0.2.12 -> 1 request
+198.51.100.23 -> 5 requests
+192.0.2.13 -> 1 request
+192.0.2.14 -> 1 request
+203.0.113.45 -> 4 requests
+192.0.2.15 -> 1 request
+192.0.2.16 -> 1 request
+198.51.100.77 -> 3 requests
+192.0.2.17 -> 1 request
+192.0.2.18 -> 1 request
+203.0.113.88 -> 4 requests
+192.0.2.19 -> 1 request
+192.0.2.20 -> 1 request
+198.51.100.90 -> 6 requests
+192.0.2.21 -> 1 request
+192.0.2.22 -> 1 request
+203.0.113.101 -> 3 requests
+192.0.2.23 -> 1 request
+192.0.2.24 -> 1 request
+198.51.100.150 -> 4 requests
+192.0.2.25 -> 1 request
+192.0.2.26 -> 1 request
+203.0.113.200 -> 3 requests
 
 --------------------------------------------------
 
 Failed Login Attempts
 ---------------------
-192.0.2.15 -> 3 attempts
+198.51.100.23 -> 4 attempts
+198.51.100.90 -> 5 attempts
 
 --------------------------------------------------
 
 404 Errors
 ----------
-198.51.100.42 -> 1
+203.0.113.45 -> 3
+203.0.113.88 -> 2
+203.0.113.101 -> 1
+198.51.100.150 -> 4
 
 --------------------------------------------------
 
 Admin Access Attempts
 ---------------------
-198.51.100.88
+198.51.100.23
