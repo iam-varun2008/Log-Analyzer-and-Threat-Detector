@@ -2,7 +2,7 @@
 
 A Python-based cybersecurity project that analyzes Apache access logs, detects suspicious activities, and generates a detailed security report.
 
-A larger synthetic Apache-style sample log is included in `sample_data/sample_access.log` to demonstrate normal traffic, repeated failed login attempts, admin access attempts, suspicious paths, unusual status codes, and basic injection-like URL patterns.
+A larger synthetic Apache-style sample log is included in `sample_data/access.log` to demonstrate normal traffic, repeated failed login attempts, admin access attempts, suspicious paths, unusual status codes, and basic injection-like URL patterns.
 
 A sample generated report is included in `reports/report.txt`.
 
@@ -98,22 +98,19 @@ python main.py
    * Display the security report in the terminal.
    * Save the report to `reports/report.txt`.
 
-## Sample Output
+## Sample Input and Output
 
-```text
-==================================================
-             LOG ANALYSIS REPORT
-==================================================
+This project includes a larger synthetic Apache-style sample log in `sample_logs/access.log`.
 
-Summary
--------
-Total Requests: 10
-Unique IP Addresses: 5
-Successful Requests: 5
-Failed Login Attempts: 3
-404 Errors: 1
-Admin Access Attempts: 1
-```
+A sample generated report is included in `reports/report.txt`.
+
+The report includes:
+- total request count
+- unique IP addresses
+- failed login attempts
+- 404 errors
+- admin access attempts
+- repeated suspicious activity by IP
 
 
 
@@ -129,6 +126,17 @@ This project demonstrates practical software engineering and cybersecurity conce
 * Threat detection techniques
 * Report generation
 * Git and GitHub workflow
+
+## Limitations
+
+This project uses rule-based detection and is intended for basic log analysis and learning purposes. It does not use machine learning and does not replace professional security monitoring tools.
+
+The detection results depend on the log format and the rules defined in the program.
+
+## Ethical Use
+
+This project is for educational and defensive security purposes only. It should be used only with log files from systems owned by the user or where permission has been granted.
+
 
 ## Future Improvements
 
